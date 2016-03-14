@@ -128,6 +128,12 @@ ul#second_nav {
     }
 }
 
+@media screen and (max-width: 611px) {
+    ul#first_nav {
+        width:27.8em;
+    }
+}
+
 
 ul {
     list-style-type: none;
