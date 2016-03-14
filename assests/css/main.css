@@ -134,6 +134,11 @@ ul#second_nav {
     }
 }
 
+@media screen and (max-width: 460px) {
+    ul#first_nav {
+        width:17.8em;
+    }
+}
 
 ul {
     list-style-type: none;
