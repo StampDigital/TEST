@@ -122,6 +122,12 @@ ul#second_nav {
     }
 }
 
+@media screen and (max-width: 766px) {
+    ul#first_nav {
+        width:37.8em;
+    }
+}
+
 
 ul {
     list-style-type: none;
