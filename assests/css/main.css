@@ -113,9 +113,12 @@ ul#second_nav {
 @media screen and (max-width: 992px) {
     ul#first_nav {
         width:57.8em;
-        margin-left: auto;
-        margin:right: auto;
-        text-align: center;
+    }
+}
+
+@media screen and (max-width: 932px) {
+    ul#first_nav {
+        width:47.8em;
     }
 }
 
