@@ -126,17 +126,26 @@ ul#second_nav {
     ul#first_nav {
         width:37.8em;
     }
+    #search input[type="text"]{
+      width: 33.5em;
+    }
 }
 
 @media screen and (max-width: 611px) {
     ul#first_nav {
         width:27.8em;
     }
+    #search input[type="text"]{
+      width: 19.2em;
+    }
 }
 
 @media screen and (max-width: 460px) {
     ul#first_nav {
         width:17.8em;
+    }
+    #search input[type="text"]{
+      width: 15.8em;
     }
 }
 
