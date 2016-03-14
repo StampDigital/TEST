@@ -992,13 +992,13 @@ a.shunno-widget-overlay {
   margin: auto
 }
 
-.disqus_rcw_author_name {
+/*.disqus_rcw_author_name {
   position: relative;
   top: -15px;
   display: inline-block
-}
+}*/
 
-.disqus_rcw_single_comment_wrapper {
+/*.disqus_rcw_single_comment_wrapper {
   margin-bottom: 15px
 }
 
@@ -1046,7 +1046,7 @@ div.disqus_rcw_author {
   opacity: .6;
   font-size: 13px;
   position: absolute
-}
+}*/
 
 .overlay,
 .shunno-feat-article:after {
@@ -1055,7 +1055,7 @@ div.disqus_rcw_author {
   left: 0
 }
 
-.disqus_rcw_comments_list {
+/*.disqus_rcw_comments_list {
   padding: 0
 }
 
@@ -1078,7 +1078,7 @@ div.disqus_rcw_author {
 
 .disqus_rcw_message:hover {
   text-decoration: underline
-}
+}*/
 
 .dsq-widget-user {
   color: #454545
@@ -1088,9 +1088,9 @@ img.dsq-widget-avatar {
   padding: 0 4px 0 0 !important
 }
 
-.disqus_rcw_content_wrapper {
+/*.disqus_rcw_content_wrapper {
   padding: 5px 0 0
-}
+}*/
 
 .shunno-single-main {
   width: 100%;
@@ -1298,7 +1298,7 @@ img.dsq-widget-avatar {
   -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, .5) inset;
   box-shadow: -2px -2px 0 rgba(255, 255, 255, .5) inset
 }
-
+/*
 .mspu-logo {
   webkit-transition: all .1s linear;
   -moz-transition: all .1s linear;
@@ -1307,11 +1307,11 @@ img.dsq-widget-avatar {
   transition: all .1s linear;
   height: 30px;
   margin-top: 11px
-}
+}*/
 
-.mspu-logo:hover {
+/*.mspu-logo:hover {
   opacity: .5
-}
+}*/
 
 .loader {
   width: 35px;
@@ -1486,12 +1486,12 @@ img.dsq-widget-avatar {
   padding: 0
 }
 
-ul.disqus_rcw_comments_list li {
+/*ul.disqus_rcw_comments_list li {
   list-style-type: none;
   border-top: 1px solid #e5e5e5;
   padding: 1.2rem;
   position: relative
-}
+}*/
 
 .mfp-bg,
 .mfp-wrap {
@@ -1502,15 +1502,15 @@ ul.disqus_rcw_comments_list li {
   position: fixed
 }
 
-.disqus_recent_comments_widget_wrapper .shunno-block-title {
+/*.disqus_recent_comments_widget_wrapper .shunno-block-title {
   margin-bottom: 0
-}
-
+}*/
+/*
 .disqus_rcw_comments_list {
   border: solid #dfdfdd;
   background-color: #fff;
   border-width: 0 1px 1px
-}
+}*/
 
 .mfp-bg {
   z-index: 1042;
@@ -2379,9 +2379,9 @@ iframe.twitter-tweet {
   }
 }
 
-.disqus_rcw_message {
+/*.disqus_rcw_message {
   font-style: italic
-}
+}*/
 
 .sunno-author-twitter i {
   padding-right: 2px;
@@ -3615,10 +3615,10 @@ img {
   font-family: 'Roboto Condensed', sans-serif
 }
 
-.site-links-privacy,
+/*.site-links-privacy,
 .social-links-disqus {
   margin-right: 0 !important
-}
+}*/
 
 @media(max-width:1200px) {
   .social-links li {
@@ -5267,9 +5267,9 @@ input[type=checkbox]:checked~label .check {
   margin-top: 0
 }
 
-#disqus_thread {
+/*#disqus_thread {
   margin-top: 10px
-}
+}*/
 
 .hide-recommended-articles .shunno-recommended-articles,
 .hide-recommended-articles .shunno-recommended-articles-full,
@@ -6223,9 +6223,9 @@ only screen and (min-resolution:240dpi) {
   font-size: 25px
 }
 
-.disqus-comment-count {
+/*.disqus-comment-count {
   font-size: 14px !important
-}
+}*/
 
 .shunno-loop-article-meta a:hover {
   color: #018ada !important
