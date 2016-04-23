@@ -1,13 +1,23 @@
-// Code goes here
-var app = angular.module("stampDigital", []);
-var MainController = function($scope){
+var stampDigital = angular.module('stampDigital', []);
 
-  $scope.message = "Hi hello";
-  $scope.username = "TESTING";
-  $scope.repoSortOrder = "-stargazers_count";
+stampDigital.controller('MainController', function ($scope) {
 
-  app.controller("MainController", MainController);
-};
+  $scope.message = 'age';
+});
+
+
+
+
+
+// var app = angular.module("stampDigital", []);
+// var MainController = function($scope){
+//
+//   $scope.message = "Hi hello";
+//   $scope.username = "TESTING";
+//   $scope.repoSortOrder = "-stargazers_count";
+//
+//   app.controller("MainController", MainController);
+// };
 
 
 
