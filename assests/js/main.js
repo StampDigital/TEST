@@ -4,6 +4,10 @@ stampDigital.controller('MainController', function ($scope) {
 
   $scope.message = 'age';
 });
+stampDigital.controller('suggestedArticles', function ($scope) {
+
+  $scope.message = 'HI hello';
+});
 
 
 
