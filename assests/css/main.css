@@ -2,10 +2,38 @@ h1, h2, h3, h4, h5{
   font-family: "Segoe UI"
 }
 
+.suggested_title{
+	text-align: center;
+}
+
 .article_text{
   width: 60em;
-  font-size: 16px;
+  font-size: 24px;
   font-family: "Segoe UI";
+}
+
+.inshallothouse_text{
+	width: 45em;
+	font-size: 24px;
+	font-family: "Angsana New";
+}
+
+.Lady_text{
+	width: 45em; 
+	font-size: 24px;
+	font-family: "Arabic Typesetting";
+}
+
+.EU_text{
+	width: 45em;
+	font-size: 24px;
+	font-family: "Blue Ridge Light SF";
+}
+
+.ISIS_text{
+	width: 45em;
+	font-size: 24px;
+	font-family: "Budoken SF";
 }
 
 #search input[type="text"]{
@@ -1348,20 +1376,6 @@ img.dsq-widget-avatar {
   -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, .5) inset;
   box-shadow: -2px -2px 0 rgba(255, 255, 255, .5) inset
 }
-/*
-.mspu-logo {
-  webkit-transition: all .1s linear;
-  -moz-transition: all .1s linear;
-  -ms-transition: all .1s linear;
-  -o-transition: all .1s linear;
-  transition: all .1s linear;
-  height: 30px;
-  margin-top: 11px
-}*/
-
-/*.mspu-logo:hover {
-  opacity: .5
-}*/
 
 .loader {
   width: 35px;
@@ -2289,7 +2303,6 @@ screen and (max-height:300px) {
   box-shadow: 0 0 10px rgba(0, 0, 0, .05);
   overflow: hidden;
   text-indent: 100%;
-  background: url(//mspoweruser.com/wp-content/themes/shunno/inc/assets/top.svg) center 50% no-repeat rgba(32, 163, 239, .8);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0 .3s;
@@ -2842,22 +2855,8 @@ iframe.twitter-tweet {
   z-index: -1
 }
 
-.shunno__arr,
-.shunno__fullscreen-icon,
-.shunno__video-close,
-.shunno__video-play {
-  background: url(//mspoweruser.com/wp-content/themes/shunno/inc/assets/shunnogallery.png) no-repeat
-}
 
-@media(-webkit-min-device-pixel-ratio:1.5),
-(min-resolution:2dppx) {
-  .shunno__arr,
-  .shunno__fullscreen-icon,
-  .shunno__video-close,
-  .shunno__video-play {
-    background: url(//mspoweruser.com/wp-content/themes/shunno/inc/assets/shunnogallery@2x.png) 0 0/96px 160px no-repeat
-  }
-}
+
 
 .shunno__thumb {
   background-color: #7f7f7f;
@@ -5146,9 +5145,7 @@ input[type=checkbox]:checked~label .check {
   border-bottom: 7px solid #3c3c3c
 }
 
-.dark .shunno-top {
-  background: url(//mspoweruser.com/wp-content/themes/shunno/inc/assets/top.svg) center 50% no-repeat rgba(88, 88, 88, .8)
-}
+
 
 .dark .social-links li:hover {
   background-color: #212121
@@ -5754,9 +5751,7 @@ div.wpappbox a:hover img {
   -webkit-filter: grayscale(40%)
 }
 
-i.wpappbox-tinymce-button {
-  background-image: url(//mspoweruser.com/wp-content/themes/shunno/../buttons/appbox.btn.png)
-}
+
 
 div.wpappbox {
   clear: both;
@@ -5924,14 +5919,7 @@ div.wpappbox div.appbuttons {
   width: 92px
 }
 
-div.wpappbox div.rating-stars {
-  width: 65px;
-  height: 13px;
-  margin-left: 2px;
-  margin-top: 4px;
-  display: inline-block;
-  background: url(//mspoweruser.com/wp-content/themes/shunno/../shunno/inc/assets/apps/stars-sprites.png) no-repeat
-}
+
 
 .dark div.wpappbox div.rating-stars {
   display: none !important
@@ -6085,33 +6073,6 @@ div.wpappbox.compact a.applinks {
   background-size: auto 48px !important
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio:1.5),
-only screen and (min--moz-device-pixel-ratio:1.5),
-only screen and (min-resolution:240dpi) {
-  div.wpappbox div.rating-stars {
-    background-image: url(//mspoweruser.com/wp-content/themes/shunno/img/stars-sprites@2x.png)
-  }
-  div.wpappbox.appstore a.applinks,
-  div.wpappbox.appstore div.applinks {
-    background: url(//mspoweruser.com/wp-content/themes/shunno/../shunno/inc/assets/apps/appstore-colorful@2x.png)
-  }
-  div.wpappbox.macappstore a.applinks,
-  div.wpappbox.macappstore div.applinks {
-    background: url(//mspoweruser.com/wp-content/themes/shunno/../shunno/inc/assets/apps/macappstore-colorful@2x.png)
-  }
-  div.wpappbox.googleplay a.applinks,
-  div.wpappbox.googleplay div.applinks {
-    background: url(//mspoweruser.com/wp-content/themes/shunno/../shunno/inc/assets/apps/googleplay-colorful@2x.png)
-  }
-  div.wpappbox.goodoldgames a.applinks,
-  div.wpappbox.goodoldgames div.applinks {
-    background: url(//mspoweruser.com/wp-content/themes/shunno/../shunno/inc/assets/apps/goodoldgames-colorful@2x.png)
-  }
-  div.wpappbox.windowsstore a.applinks,
-  div.wpappbox.windowsstore div.applinks {
-    background: url(//mspoweruser.com/wp-content/themes/shunno/../shunno/inc/assets/apps/windowsstore-colorful@2x.png)
-  }
-}
 
 @media screen and (max-width:500px) {
   div.wpappbox div.appdetails>div.developer,
@@ -7457,22 +7418,7 @@ div.wpappbox.simple {
   }
 }
 
-.shunnowire-comments,
-.shunnowire-cpu,
-.shunnowire-facebook,
-.shunnowire-news,
-.shunnowire-push,
-.shunnowire-settings,
-.shunnowire-star,
-.shunnowire-store,
-.shunnowire-twitter,
-.shunnowire-youtube {
-  display: block;
-  background: url(//mspoweruser.com/wp-content/themes/shunno/inc/assets/icons.png) no-repeat;
-  overflow: hidden;
-  text-indent: -9999px;
-  text-align: left
-}
+
 
 .shunnowire-push {
   background-position: 0 0;
