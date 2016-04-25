@@ -37,9 +37,10 @@ stampDigital.controller('MainController', function ($scope) {
     $scope.thirdNewestArticle = articleNum[articleNum.length-3];
     $scope.oldestArticle = articleNum[articleNum.length-4];
 
+    $scope.repos = [article_1, article_2, article_3, article_4];
   //Controller to controll articles on home page
   // var varName = "article_" + articleNum.ToString();
-  //
+
 
 
   // var newestArticle =  $scope.scopeName;
