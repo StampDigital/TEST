@@ -1,64 +1,58 @@
 var stampDigital = angular.module('stampDigital', []);
 
 stampDigital.controller('MainController', function ($scope) {
-  // var articleNum = 6;
+    $scope.testing = "HEY";
+
+
+
+    var article_1 = "The News in Limericks";
+    var article_1_image = 'images/IMAG0516.mp4';
+    var article_1_content = "h";
+    var article_1_link = "articles/In Shalott House";
+    var article_1_author = "articles/In Shalott House";
+
+    var article_2 = "The Lady in the Mountain";
+    var article_2_image = 'images/IMAG0516.mp4';
+    var article_2_content = "h";
+    var article_2_link = "articles/In Shalott House";
+    var article_2_author = "articles/In Shalott House";
+
+    var article_3 = 'Are EU in or out?';
+    var article_3_image = 'images/IMAG0516.mp4';
+    var article_3_content = "D";
+    var article_3_link = "articles/In Shalott House";
+    var article_3_author = "articles/In Shalott House";
+
+    var article_4 = 'In Shalott House';
+    var article_4_image = 'images/IMAG0516.mp4';
+    var article_4_content = "D";
+    var article_4_link = "articles/In Shalott House";
+    var article_4_author = "articles/In Shalott House";
+
+    var articleNum = [article_1, article_2, article_3, article_4];
+
+    $scope.newestArticle = articleNum[articleNum.length-1];
+    $scope.newestArticleImage = articleNum[articleNum.length-1];
+    $scope.secondNewestArticle = articleNum[articleNum.length-2];
+    $scope.thirdNewestArticle = articleNum[articleNum.length-3];
+    $scope.oldestArticle = articleNum[articleNum.length-4];
+
+  //Controller to controll articles on home page
+  // var varName = "article_" + articleNum.ToString();
   //
+
+
+  // var newestArticle =  $scope.scopeName;
+  // $scope.home_article_1 = newestArticle;
   //
-  // $scope.article_1 = 'In Shalott House';
-  // $scope.article_1_image = 'images/IMAG0516.mp4';
-  // $scope.article_1_content = "She was born many years ago, long before the days of war and violence. The day she was born was a cold winter's day when a crisp frost coated the ground and roses froze in their vases and a thin cry broke through the cracks in the old broken windows. It was an old house, and very beautiful, but the scarlet ivy which crept up the walls
-  // showed the neglect which it had faced, and the flickering light of a candle in the window of an upper room was the only sign that people still lived there. A thin cry, like the wail of a new-born kitten, escaped from the room, echoing out across the vast grounds, long since abandoned by any gardener who cared for them, and the light dimmed.
-  // A low sob burst out, which turned into a flood of tears, mingling with the cries of the child to create a heart-breaking symphony of pain and grief.";
-  // $scope.article_1_link = "articles/In Shalott House";
-  //
-  // $scope.article_2 = 'In Shalott House';
-  // $scope.article_2_image = 'images/IMAG0516.mp4';
-  // $scope.article_2_content = "She was born many years ago, long before the days of war and violence. The day she was born was a cold winter's day when a crisp frost coated the ground and roses froze in their vases and a thin cry broke through the cracks in the old broken windows. It was an old house, and very beautiful, but the scarlet ivy which crept up the walls
-  // showed the neglect which it had faced, and the flickering light of a candle in the window of an upper room was the only sign that people still lived there. A thin cry, like the wail of a new-born kitten, escaped from the room, echoing out across the vast grounds, long since abandoned by any gardener who cared for them, and the light dimmed.
-  // A low sob burst out, which turned into a flood of tears, mingling with the cries of the child to create a heart-breaking symphony of pain and grief.";
-  // $scope.article_2_link = "articles/In Shalott House";
-  //
-  // $scope.article_3 = 'In Shalott House';
-  // $scope.article_3_image = 'images/IMAG0516.mp4';
-  // $scope.article_3_content = "She was born many years ago, long before the days of war and violence. The day she was born was a cold winter's day when a crisp frost coated the ground and roses froze in their vases and a thin cry broke through the cracks in the old broken windows. It was an old house, and very beautiful, but the scarlet ivy which crept up the walls
-  // showed the neglect which it had faced, and the flickering light of a candle in the window of an upper room was the only sign that people still lived there. A thin cry, like the wail of a new-born kitten, escaped from the room, echoing out across the vast grounds, long since abandoned by any gardener who cared for them, and the light dimmed.
-  // A low sob burst out, which turned into a flood of tears, mingling with the cries of the child to create a heart-breaking symphony of pain and grief.";
-  // $scope.article_3_link = "articles/In Shalott House";
-  //
-  // $scope.article_4 = 'In Shalott House';
-  // $scope.article_4_image = 'images/IMAG0516.mp4';
-  // $scope.article_4_content = "She was born many years ago, long before the days of war and violence. The day she was born was a cold winter's day when a crisp frost coated the ground and roses froze in their vases and a thin cry broke through the cracks in the old broken windows. It was an old house, and very beautiful, but the scarlet ivy which crept up the walls
-  // showed the neglect which it had faced, and the flickering light of a candle in the window of an upper room was the only sign that people still lived there. A thin cry, like the wail of a new-born kitten, escaped from the room, echoing out across the vast grounds, long since abandoned by any gardener who cared for them, and the light dimmed.
-  // A low sob burst out, which turned into a flood of tears, mingling with the cries of the child to create a heart-breaking symphony of pain and grief.";
-  // $scope.article_4_link = "articles/In Shalott House";
-  //
-  // $scope.article_5 = 'In Shalott House';
-  // $scope.article_5_image = 'images/IMAG0516.mp4';
-  // $scope.article_5_content = "She was born many years ago, long before the days of war and violence. The day she was born was a cold winter's day when a crisp frost coated the ground and roses froze in their vases and a thin cry broke through the cracks in the old broken windows. It was an old house, and very beautiful, but the scarlet ivy which crept up the walls
-  // showed the neglect which it had faced, and the flickering light of a candle in the window of an upper room was the only sign that people still lived there. A thin cry, like the wail of a new-born kitten, escaped from the room, echoing out across the vast grounds, long since abandoned by any gardener who cared for them, and the light dimmed.
-  // A low sob burst out, which turned into a flood of tears, mingling with the cries of the child to create a heart-breaking symphony of pain and grief.";
-  // $scope.article_5_link = "articles/In Shalott House";
-  //
-  // $scope.article_6 = 'In Shalott House 6';
-  // $scope.article_6_image = 'images/IMAG0516.mp4';
-  // $scope.article_6_content = "She was born many years ago, long before the days of war and violence. The day she was born was a cold winter's day when a crisp frost coated the ground and roses froze in their vases and a thin cry broke through the cracks in the old broken windows. It was an old house, and very beautiful, but the scarlet ivy which crept up the walls
-  // showed the neglect which it had faced, and the flickering light of a candle in the window of an upper room was the only sign that people still lived there. A thin cry, like the wail of a new-born kitten, escaped from the room, echoing out across the vast grounds, long since abandoned by any gardener who cared for them, and the light dimmed.
-  // A low sob burst out, which turned into a flood of tears, mingling with the cries of the child to create a heart-breaking symphony of pain and grief.";
-  // $scope.article_6_link = "articles/In Shalott House";
-  //
-  //
-  //
-  // //Controller to controll articles on home page
   // articleNum = articleNum.ToString();
-  // $scope.home_article_1 = window["'$scope_' + articleNum"] ; //NEWEST ARTICLE
-  // $scope.home_article_1_image = ;
-  // scope.home_article_1_content = ;
-  // scope.home_article_1_link = ;
-  //
-
-
+  // $scope.home_article_1 = window["$scope.article_1"]; //NEWEST ARTICLE
+  // $scope.home_article_1_image = "f";
+  // scope.home_article_1_content = "d";
+  // scope.home_article_1_link = "w";
 
   //Controller to controll articles in archive
+
 
 
 });

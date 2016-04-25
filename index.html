@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="assests\css\main.css">
     <link rel="icon" type="image/ico" href="favicon.ico">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-	<script src="..\assests\js\main.js"></script>
+	<script src="assests\js\main.js"></script>
 </head>
 
 <body class="no-touch">
@@ -174,8 +174,8 @@
                   />
                   <div class="shunno-loop-overlay"></div>
                 </div>
-                <div class="shunno-loop-article-meta">
-                  <h2>In Shalott House</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Morgan McGowan</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>11:10am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
+                <div class="shunno-loop-article-meta" ng-controller="MainController">
+                  <h2>{{newestArticle}}</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Morgan McGowan</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>11:10am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
               </p>
               </span>
               <p class="shunno-loop-article-excerpt"> This will be a fictional story apparently by Morgan McGowan</p>
@@ -189,8 +189,8 @@
                   />
                   <div class="shunno-loop-overlay"></div>
                 </div>
-                <div class="shunno-loop-article-meta">
-                  <h2>The Lady in the Mountain</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Tom Milnes</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>10:15am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
+                <div class="shunno-loop-article-meta" ng-controller="MainController">
+                  <h2>{{secondNewestArticle}}</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Tom Milnes</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>10:15am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
               </p>
               </span>
               <p class="shunno-loop-article-excerpt"> This is a fictional story about a beautiful young princess written by Tom Milnes</p>
@@ -203,8 +203,8 @@
                   />
                   <div class="shunno-loop-overlay"></div>
                 </div>
-                <div class="shunno-loop-article-meta">
-                  <h2>Are EU in or out?</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Sadie Pitcher</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>10:15am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
+                <div class="shunno-loop-article-meta" ng-controller="MainController">
+                  <h2>{{thirdNewestArticle}}</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Sadie Pitcher</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>10:15am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
               </p>
               </span>
               <p class="shunno-loop-article-excerpt">Basic knowledge of the debate on whether U.K should stay in the EU or not</p>
@@ -217,8 +217,8 @@
                   />
                   <div class="shunno-loop-overlay"></div>
                 </div>
-                <div class="shunno-loop-article-meta">
-                  <h2>The news in Limericks</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Anonymous</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>10:15am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
+                <div class="shunno-loop-article-meta" ng-controller="MainController">
+                  <h2>{{oldestArticle}}</h2> </a> <span class="shunnoarticlemtapls"><p class='shunno-meta'>by&nbsp;<a href='#' title='Read more articles from this author'>Anonymous</a></p><p class='shunno-mobileicon-detect shunno-meta'><i class='shunno shunno-clock'></i>10:15am</p><p class="shunno-mfnsites shunno-mobileicon-detect shunno-meta">
               </p>
               </span>
               <p class="shunno-loop-article-excerpt">Here is a poem about ISIS </p>
@@ -237,9 +237,19 @@
 
 
 
-<div ng-controller="MainController">
-{{home_article_1}}
+<!-- <div ng-controller="MainController">
+{{newestArticle}}
 </div>
+
+
+	<div ng-controller="suggestedArticles">
+		<h3 class="suggested_title">Suggested Artcles</h3>
+		<h4>{{message}}</h4>
+		<img src ="{{pic_1}}">
+
+
+  </div> -->
+
 
   <footer id="colophon" class="site-footer" role="contentinfo">
     <center class="footer-info">
