@@ -4,34 +4,40 @@ stampDigital.controller('MainController', function ($scope) {
     $scope.testing = "HEY";
 
 
-
-    var article_1 = "The News in Limericks";
+	var article_1	= {name:"The News in Limericks", image:"images/IMAG0516.mp4", link:"articles/In Shalott House", author: "In Shalott House"}; 
+/*     var article_1 = "The News in Limericks";
     var article_1_image = 'images/IMAG0516.mp4';
     var article_1_content = "h";
     var article_1_link = "articles/In Shalott House";
-    var article_1_author = "articles/In Shalott House";
+    var article_1_author = "articles/In Shalott House"; */
 
+	var article_2	= {name:"Lady in the Mountain", image:"images/IMAG0516.mp4", link:"articles/In Shalott House", author: "In Shalott House"};/*  
     var article_2 = "The Lady in the Mountain";
     var article_2_image = 'images/IMAG0516.mp4';
     var article_2_content = "h";
     var article_2_link = "articles/In Shalott House";
-    var article_2_author = "articles/In Shalott House";
+    var article_2_author = "articles/In Shalott House"; */
 
-    var article_3 = 'Are EU in or out?';
+	
+	var article_3	= {name:"Are EU in or out?", image:"images/IMAG0516.mp4", link:"articles/In Shalott House", author: "In Shalott House"}; 
+    /* var article_3 = 'Are EU in or out?';
     var article_3_image = 'images/IMAG0516.mp4';
     var article_3_content = "D";
     var article_3_link = "articles/In Shalott House";
-    var article_3_author = "articles/In Shalott House";
+    var article_3_author = "articles/In Shalott House"; */
 
-    var article_4 = 'In Shalott House';
+	
+	var article_4	= {name:"In Shalott House", image:"images/IMAG0516.mp4", link:"articles/In Shalott House", author: "In Shalott House"}; 
+   /*  var article_4 = 'In Shalott House';
     var article_4_image = 'images/IMAG0516.mp4';
     var article_4_content = "D";
     var article_4_link = "articles/In Shalott House";
     var article_4_author = "articles/In Shalott House";
-
+ */
     var articleNum = [article_1, article_2, article_3, article_4];
 
-    $scope.newestArticle = articleNum[articleNum.length-1];
+	var newestArticleText = articleNum[articleNum.length-1];
+    $scope.newestArticle = newestArticleText.name;
     $scope.newestArticleImage = articleNum[articleNum.length-1];
     $scope.secondNewestArticle = articleNum[articleNum.length-2];
     $scope.thirdNewestArticle = articleNum[articleNum.length-3];
