@@ -44,41 +44,22 @@ div.desc {
     }
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .suggested_title{
 	text-align: center;
 }
 
 .article_text{
-  width: 60em;
+  max-width: 60em;
   font-size: 24px;
   font-family: "Elementary SF";
 }
 
-.inshallothouse_text{
-	width: 45em;
-	font-size: 24px;
-	font-family: "Angsana New";
-}
 
-.Lady_text{
-	width: 45em;
-	font-size: 24px;
-	font-family: "Arabic Typesetting";
-}
 
-.EU_text{
-	width: 45em;
-	font-size: 24px;
-	font-family: "Blue Ridge Light SF";
-}
 
 .ISIS_text{
-	width: 45em;
+	max-width: 45em;
 	font-size: 24px;
 	font-family: "Budoken SF";
 }
@@ -116,6 +97,12 @@ font-family: "Segoe UI Light";
   width: 30em;
   margin-top: 2em;
   height: 30em;
+
+}
+.EU_image{
+  width: 20em;
+  margin-top: 2em;
+  height: 35em;
 }
 
 
@@ -2306,45 +2293,7 @@ screen and (max-height:300px) {
   font-size: 16px
 }
 
-@media(max-width:1200px) {
-  .shunno-loop-article-meta h2 {
-    font-size: 18px;
-    padding-top: 5px
-  }
-  .shunno-loop article {
-    height: 100%;
-    display: block;
-    overflow: hidden
-  }
-  .shunno-loop-thumb img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
-    transform: none
-  }
-  .shunno-article-vote {
-    display: none !important
-  }
-  .shunno-loop-thumb {
-    width: 100%;
-    height: auto;
-    float: left;
-    overflow: hidden
-  }
-  .shunno-loop-article-meta {
-    width: 100%;
-    float: left;
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 12px
-  }
-  .shunno-news-block-sp .shunno-loop-article-meta {
-    background-color: #f8f8f8
-  }
-}
+
 
 .shunno-top {
   display: inline-block;
@@ -3731,7 +3680,7 @@ img {
   }
 }
 
-@media(max-width:991px) {
+/* @media(max-width:991px) {
   .footer-logo {
     width: 15%;
     float: left;
@@ -3757,8 +3706,8 @@ img {
   .footer-logo a {
     width: 79px !important
   }
-}
-
+} */
+/* 
 @media(max-width:775px) {
   .footer-logo {
     margin-top: 40px
@@ -3781,9 +3730,9 @@ img {
   .footer-logo a {
     width: 71px !important
   }
-}
+} */
 
-@media(max-width:600px) {
+/* @media(max-width:600px) {
   .footer-queries {
     display: none
   }
@@ -3819,7 +3768,7 @@ img {
 .footer-logo a {
   width: 101px;
   height: 100%
-}
+} */
 
 .shunno-gallery,
 .shunno-recommended-articles,

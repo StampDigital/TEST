@@ -1,4 +1,4 @@
-var stampDigital = angular.module('stampDigital', []);
+var app = angular.module('App', []);
 
 stampDigital.controller('MainController', function ($scope) {
     $scope.testing = "HEY";
@@ -66,13 +66,13 @@ stampDigital.controller('MainController', function ($scope) {
 
 
 
-stampDigital.controller('suggestedArticles', function ($scope) {
+/* stampDigital.controller('suggestedArticles', function ($scope) {
 
   $scope.message = 'HI hello';
 });
 
 
-
+ */
 
 
 // var app = angular.module("stampDigital", []);
